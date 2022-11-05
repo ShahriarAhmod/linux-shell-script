@@ -1,0 +1,76 @@
+"man" command in Linux is used to display the user manual of any command that we can run on the terminal. example:
+ubuntu@ubuntu:~$ man echo
+
+"who" command is a tool print information about users who are currently logged in. "who" command only see a real user who logged in. Example:
+ubuntu@ubuntu:~$who
+
+The "cat" command is a utility command in Linux. One of its most common usages is to print the content of a file onto the standard output stream.
+Example:
+ubuntu@ubuntu:~$cat > readme.txt
+
+Linux "cd" command is used to change the current working directory ( i.e., in which the current user is working). Example:
+ubuntu@ubuntu:cd Desktop
+
+"cp" stands for copy. This command is used to copy files or group of files or directory. It creates an exact image of a file on a disk with different file name. cp command require at least two filenames in its arguments. Example:
+ubuntu@ubuntu:~$cp a.txt b.txt
+
+“ps” stands for process status and is a powerful tool that provides information about processes on your Linux system. Example:
+ubuntu@ubuntu:~$ps
+
+In Linux, the command "ls" is one of the most commonly used. It's used to display a list of files and sub-directories in the current directory. Example:
+ubuntu@ubuntu:~$ls
+
+
+The rm command is used to delete files. Example:
+ubuntu@ubuntu:~$rm a.txt
+
+
+mkdir command in Linux allows the user to create directories (also referred to as folders in some operating systems ). Example:
+ubuntu@ubuntu:~$mkdir New_Folder
+
+The rmdir command removes the directory, specified by the Directory parameter, from the system. Example:
+ubuntu@ubuntu:~$rmdir New_Folder
+
+echo command in linux is used to display line of text/string that are passed as an argument. Example:
+ubuntu@ubuntu:~$echo "Hello, World!"
+
+more command is used to view the text files in the command prompt, displaying one screen at a time in case the file is large. Example:
+ubuntu@ubuntu:~$more a.txt
+
+
+The less command is a Linux terminal pager that shows a file's contents one screen at a time. Example:
+ubuntu@ubuntu:~$less a.txt
+
+date command is used to display the system date and time. date command is also used to set date and time of the system. Example:
+ubuntu@ubuntu:~$date
+
+time command in Linux is used to execute a command and prints a summary of real-time, user CPU time and system CPU time spent by executing a command when it terminates. Example:
+ubuntu@ubuntu:~$time
+
+In Linux, the kill command can be defined as a built-in command. It is used for manually terminating the processes. Example:
+ubuntu@ubuntu:~$kill -l
+
+history command is used to view the previously executed command. This feature was not available in the Bourne shell. Bash and Korn support this feature in which every command executed is treated as the event and is associated with an event number using which they can be recalled and changed if required. Example:
+ubuntu@ubuntu:~$history 5
+
+Linux chmod command is used to change the access permissions of files and directories. Example:
+ubuntu@ubuntu:~$chmod +x script.sh
+
+chown command is used to change the file Owner or group. Whenever you want to change ownership you can use chown command. Example:
+ubuntu@ubuntu:~$chown master script.sh
+
+
+Finger command is a user information lookup command which gives details of all the users logged in.  Example:
+ubuntu@ubuntu:~$finger manav
+
+The pwd command writes to standard output the full path name of your current directory (from the root directory). Example:
+ubuntu@ubuntu:~$pwd
+
+cal command is a calendar command in Linux which is used to see the calendar of a specific month or a whole year. Example:
+ubuntu@ubuntu:~$cal 03 2022
+
+logout command use for logout of a login shell. This command can be used by normal users to end their own session. Example :
+ubuntu@ubuntu:~$logout
+
+The shutdown command features two options: --halt and --poweroff . The --halt option stops the operating system while the --poweroff option turns off the system. Example:
+ubuntu@ubuntu:~$shutdown --poweroff
